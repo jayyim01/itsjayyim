@@ -1186,6 +1186,53 @@ main section.section-black #leadership .card {
   background: linear-gradient(135deg, color-mix(in srgb, var(--tint-subtle) 30%, var(--card)), color-mix(in srgb, var(--tint) 6%, var(--card)));
   padding: 1.1rem 1.1rem 1rem;
 }
+
+/* Contact section (dark bg): high-contrast cards */
+#contact.section-black .contact-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+#contact.section-black .contact-card h3,
+#contact.section-black .contact-card .detail-label,
+#contact.section-black .contact-card .detail-value,
+#contact.section-black .contact-card .detail-value a,
+#contact.section-black .contact-card .callout h4,
+#contact.section-black .contact-card .callout a {
+  color: #000000;
+}
+#contact.section-black .contact-card .detail-label {
+  color: rgba(0, 0, 0, 0.7);
+}
+#contact.section-black .contact-card input,
+#contact.section-black .contact-card textarea {
+  background: #f8f8f8;
+  border-color: rgba(0, 0, 0, 0.18);
+  color: #000000;
+}
+#contact.section-black .contact-card input::placeholder,
+#contact.section-black .contact-card textarea::placeholder {
+  color: rgba(0, 0, 0, 0.45);
+}
+#contact.section-black .contact-card .detail {
+  background: #f5f5f5;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+#contact.section-black .contact-card .callout {
+  background: #f5f5f5;
+  border-color: rgba(0, 0, 0, 0.12);
+}
+#contact.section-black .contact-card .btn-ghost {
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+  color: var(--accent);
+}
+#contact.section-black .contact-card .btn-primary {
+  color: #ffffff;
+}
+#contact.section-black .contact-card .dot {
+  color: rgba(0, 0, 0, 0.5);
+}
 .form {
   display: grid;
   gap: 0.85rem;
@@ -1393,3 +1440,4 @@ textarea:focus {
     padding: 0.8rem 0.85rem;
   }
 }
+
